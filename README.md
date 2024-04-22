@@ -1,3 +1,6 @@
-Endpoints da API
-![image](https://github.com/viniciusmegiato/Django-Api/assets/82332528/794f9ae7-0c00-44f7-b200-72efcbeca9ac)
+**# API Rest Django, API Gateway e Autenticação JWT**
 
+**# Documentação**
+![image](https://github.com/viniciusmegiato/Django-Api/assets/82332528/204d3b97-bf3a-4152-ac89-a3626d6c73d9)
+
+**# Exemplos de Requisição**
