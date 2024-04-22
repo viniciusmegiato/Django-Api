@@ -5,7 +5,8 @@
 * Também introduzi testes para a API.
 
 # Execução
-* Clone o repositório e baixe as bibliotecas através do requirements.txt
+* Projeto feito em Python 3.11.1
+* Clone o repositório e baixe as bibliotecas do requirements.txt através do comando ```pip install requeriments.txt```
 * Criar uma venv seria interessante para não possuir possíves conflitos de versões
 * Após a instalação, execute o projeto: ```py manage.py runserver```
 * O projeto conta com um usuário cadastrado, então faça o login, se necessário, na rota  ```http://127.0.0.1:8000/admin```
