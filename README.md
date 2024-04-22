@@ -13,8 +13,8 @@
 Acesse: http://127.0.0.1:8000/swagger/
 
 # Exemplos de Requisição
-Request URL
+* Request URL
 ![image](https://github.com/viniciusmegiato/Django-Api/assets/82332528/644917c7-c781-4f24-a203-0038b1052ef8)
 
-Retorno
+* Retorno
 ![image](https://github.com/viniciusmegiato/Django-Api/assets/82332528/d17593ab-5621-45c9-ba3f-bb2e032fb6fe)
