@@ -6,6 +6,11 @@ from rest_framework.response import Response
 from .models import Products
 
 
+from django.views.generic import TemplateView
+
+class HomeView(TemplateView):
+    template_name = 'home.html'
+
 class ProductsViewSet(ModelViewSet):
     queryset = Products.objects.all()
     serializer_class = ProductsSerializer
