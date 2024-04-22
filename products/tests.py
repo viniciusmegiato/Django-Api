@@ -56,7 +56,7 @@ class ProductsAPITestCase(APITestCase):
         data = {'name': 'Updated Product', 'description': 'Updated description', 'price': '75.00'}
 
         # Enviar requisição PUT para atualizar o produto
-        response = self.client.put(f'/products/update/{product.id}/', data, format='json')
+        response = self.client.put(f'/products/{product.id}/', data, format='json')
 
         # Verificar se a requisição foi bem-sucedida (status HTTP 200 OK)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
@@ -72,10 +72,10 @@ class ProductsAPITestCase(APITestCase):
         self.client.credentials(HTTP_AUTHORIZATION=f'Bearer {self.token}')
 
         # Enviar requisição DELETE para excluir o produto
-        response = self.client.delete(f'/products/delete/{product.id}/')
+        response = self.client.delete(f'/products/{product.id}/')
 
-        # Verificar se a requisição foi bem-sucedida (status HTTP 200 OK)
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        # Verificar se a requisição foi bem-sucedida (status HTTP 204 NO CONTENT)
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 
         # Verificar se o produto foi removido do banco de dados
         with self.assertRaises(Products.DoesNotExist):
