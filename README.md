@@ -1,7 +1,7 @@
-# Microserviços, API Gateway e Autenticação JWT com Django
+# Microserviços e Autenticação JWT com Django
 
 ![image](https://github.com/viniciusmegiato/Django-Api/assets/82332528/56cbe1d9-8a90-44d9-a263-c9e06fce95eb)
-* Conceitos de APi Rest, gateway e JWT foram implementados nesse projeto, que foi feito em python, utilizando django.
+* Conceitos de APi Rest e JWT foram implementados nesse projeto, que foi feito em python, utilizando django.
 * Também introduzi testes para a API.
 
 # Execução
